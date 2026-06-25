@@ -1,0 +1,103 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header{
+    background: linear-gradient(to right, #0077b6, #00b4d8);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 18px;
+}
+
+/* About Section */
+.about{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2{
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+.package-btn{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.package-btn a{
+    background-color: #0077b6;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.package-btn a:hover{
+    background-color: #023e8a;
+}
+
+/* Destination Section */
+.destinations{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.destinations h2{
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.destination-card{
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 6px solid #00b4d8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.destination-card:hover{
+    transform: translateY(-5px);
+}
+
+.destination-card h3{
+    color: #023e8a;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer{
+    background-color: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
